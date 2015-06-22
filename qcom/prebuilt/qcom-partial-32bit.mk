@@ -80,6 +80,7 @@ PRODUCT_PACKAGES += \
 	libsc-a3xx \
 	libsensor1 \
 	libsensor_reg \
+	libstlport \
 	libta \
 	libtime_genoff \
 	libxml \
