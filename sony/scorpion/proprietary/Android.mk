@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq (scorpion, $(TARGET_DEVICE))
+ifeq ($(filter-out scorpion scorpion_windy, $(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Handset_cal
 LOCAL_MODULE_OWNER := Sony Mobile
